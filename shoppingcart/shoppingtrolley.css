@@ -1,0 +1,233 @@
+html {
+	/* background-color: #F5F5F5; */
+}
+
+body {
+	color: #1a191e;
+	background-color: #F5F5F5;
+}
+
+.shopping {
+	overflow: hidden;
+	width: 100%;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	padding: 3.7vw 3.7vw;
+	position: relative;
+	background-color: white;
+}
+
+/* .top::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: #cecece;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	transform: scaleY(0.5);
+} */
+
+.icon-fanhui {
+	color: #1a191e;
+	font-size: 5.9vw;
+}
+
+.top-middle {
+	color: #1a191e;
+	font-size: 4.5vw;
+	font-weight: bold;
+}
+
+.top-right {
+	color: #1a191e;
+	font-size: 4vw;
+	font-weight: bold;
+}
+
+/* 商品 */
+.shop-one {
+	display: flex;
+	padding: 5.4vw 0 5.9vw 2.7vw;
+	align-items: center;
+	margin-bottom: 2.9vw;
+	background-color: white;
+}
+
+.shop-one-left {
+	position: relative;
+}
+
+.shop-one-left input {
+	width: 4.3vw;
+	height: 4.3vw;
+	position: absolute;
+	top: 0.5vw;
+	left: 0.25vw;
+	opacity: 0;
+}
+
+.shop-one-img {
+	position: relative;
+	margin: 0 2.7vw;
+}
+
+.shop-one-img img {
+	max-width: 29.3vw;
+	max-height: 29.3vw;
+	z-index: 10;
+}
+
+.shop-one-img-cov {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #1c1717;
+	opacity: .04;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+}
+
+.shop-one-right-up-up {
+	margin-top: 0.5vw;
+	font-size: 3.5vw;
+	/* color: ; */
+}
+
+.shop-one-right-up-down {
+	font-size: 3.5vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 57vw;
+}
+
+.shop-one-right-down {
+	padding-top: 15.2vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.shop-one-right-down-small {
+	font-size: 4.5vw;
+}
+
+.shop-one-right-down-money {
+	display: none;
+}
+
+.shop-one-right-down-num {
+	display: flex;
+	border: 1px solid #E5E5E5;
+	margin-right: 2.8vw;
+	padding: 1.6vw 0;
+}
+
+.subtract,
+.nums,
+.plus {
+	color: #1c1717;
+	/* padding: 0 2.7vw; */
+	width: 7.5vw;
+	text-align: center;
+	font-size: 3.5vw;
+	/* font-weight: bold; */
+}
+
+.icon-jianshao {
+	color: #ccc;
+}
+
+/* 底部遮罩 */
+.shop-cover {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: white;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.shop-cover-all {
+	text-align: center;
+}
+
+.shop-cover-all input {
+	width: 4.3vw;
+	height: 4.3vw;
+	position: absolute;
+	top: 1.9vw;
+	left: 4.5vw;
+	opacity: 0;
+}
+
+.shop-cover-all span {
+	font-weight: bold;
+	margin-top: 2vw;
+	display: block;
+}
+
+.shop-cover-money {
+	font-size: 4.5vw;
+	padding-right: 2.5vw;
+	width: 53vw;
+	text-align: right;
+	position: relative;
+}
+
+.shop-cover-money span {
+	font-size: 4.5vw;
+}
+
+.shop-cover-payment {
+	padding: 4.2vw 0vw;
+	text-align: center;
+	background-color: #1c1717;
+	color: white;
+	width: 34.7vw;
+	font-size: 4vw;
+	position: relative;
+}
+.shop-cover-payment a{
+	color: white;
+	font-size: 4vw;
+}
+.shop-cover-payment span {
+	color: #FFFFFF;
+	font-size: 4vw;
+}
+
+.icon-xuanzhong,
+.icon-weixuanze {
+	font-size: 4.5vw;
+}
+
+.shop-cover-payment-cover {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: white;
+	font-size: 4.2vw;
+	padding: 4.1vw 0vw;
+	text-align: center;
+	background-color: #1c1717;
+	width: 34.7vw;
+	display: none;
+}
+.shop-cover-money-cover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-right: 2.5vw;
+	width: 53vw;
+	background-color: white;
+	height: 6vw;
+	display: none;
+}

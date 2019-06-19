@@ -1,0 +1,30 @@
+/*头部*/
+.header-bar p{
+	color: #000000;
+}
+.header-bar {
+	height: 11.7vw;
+	text-align: center;
+	background: rgba(250, 250, 250, 0.9);
+	border-bottom: 1px solid #E4E4E4;
+	padding: 0 3.2px;
+	position: relative;
+}
+.header-bar p {
+	font-size: 4.3vw;
+	line-height: 11.7vw;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: clip;
+	overflow: hidden;
+}
+.icon-arrow-left {
+	display: inline-block;
+	width: 6.4vw;
+	height: 6.4vw;
+	background: url("//img02.hua.com/m/icon/iconChevronLeft@2x.png") no-repeat center center;
+	background-size: 24px 24px;
+	position: absolute;
+	left: 12px;
+	top: 10px;
+}

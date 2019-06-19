@@ -1,0 +1,297 @@
+body {
+	background: #f5f5f5;
+}
+
+.account {
+	overflow: hidden;
+}
+
+/* top */
+.top {
+	display: flex;
+	padding: 3.2vw 4.8vw;
+	align-items: center;
+	position: relative;
+	background-color: white;
+}
+
+.top_left .fa-angle-left {
+	font-size: 6vw;
+}
+
+.top_middle {
+	padding-left: 31.7vw;
+	font-size: 4.9vw;
+	color: #1a191e;
+}
+
+.top::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: #cecece;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	transform: scaleY(0.5);
+}
+
+/* <!-- 第一块 --> */
+.one {
+	margin-top: 2.5vw;
+	background-color: white;
+	padding: 4.4vw;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.one_left {
+	font-size: 4vw;
+	color: #1a191e;
+}
+
+.one_right span {
+	font-size: 3.7vw;
+	padding-right: 2vw;
+}
+
+.one_right .fa-angle-right {
+	font-size: 5vw;
+}
+
+.one::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: #cecece;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	transform: scaleY(0.5);
+}
+
+/* <!-- 第二块，收货地址 --> */
+.two {
+	background-color: white;
+	padding: 4.5vw 3.8vw;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.two_left_one {
+
+	font-size: 4vw;
+	color: #1a191e;
+}
+
+.two_left_two {
+	margin-top: 3vw;
+	font-size: 3.6vw;
+	color: #666;
+}
+
+.two_left_two span {
+	margin-right: 2vw;
+}
+
+.two_left_three {
+	font-size: 3.6vw;
+	color: #666;
+}
+
+.two_fight .fa-angle-right {
+	font-size: 5.5vw;
+}
+.two_img{
+	position: absolute;
+	bottom: -0.5vw;
+	left: 0;
+	width: 100%;
+	height: 1vw;
+	background-size: 10%;
+	background-image: url(img/line_color_05.jpg);
+	
+}
+/* <!-- 第三块，优惠卷 --> */
+.three {
+	margin-top: 2.5vw;
+	background-color: white;
+	padding: 0 4.1vw;
+}
+
+.three_up {
+	padding: 4.4vw 0;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.three_up::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: #cecece;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	transform: scaleY(0.5);
+}
+
+.three_up_left {
+	font-size: 4.4vw;
+	color: #1a191e;
+}
+
+.three_up_right span {
+	font-size: 3.7vw;
+	color: #666;
+	padding-right: 3.2vw;
+}
+
+.three_up_right .fa-angle-right {
+	font-size: 5vw;
+}
+
+/* <!-- 第四块， --> */
+.four {
+	margin-top: 2.5vw;
+	background-color: white;
+	padding: 0 4.1vw;
+	margin-bottom: 22vw;
+}
+
+.four_one {
+	font-size: 4vw;
+	color: #1a191e;
+	padding: 4.4vw 0;
+	position: relative;
+}
+
+.four_one::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: #cecece;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	transform: scaleY(0.5);
+}
+
+.four_two {
+	padding: 2.5vw 0;
+	position: relative;
+	display: flex;
+}
+
+.four_two::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: #cecece;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	transform: scaleY(0.5);
+}
+
+.four_two_left img {
+	max-width: 17.4vw;
+}
+
+.four_two_right {
+	margin-left: 5vw;
+	margin-top: 2vw;
+}
+
+.four_two_right_up {
+	color: #1a191e;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 66.7vw;
+}
+
+.four_two_right_middle {
+	margin-top: 1.6vw;
+}
+
+.four_two_right_down {
+	text-align: right;
+	color: #1a191e;
+	padding-top: 1vw;
+	padding-right: 0vw;
+	font-size: 3.7vw;
+}
+
+.four_three {
+	padding: 2.5vw 0;
+	position: relative;
+}
+
+.four_three_one {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 3vw;
+	padding-bottom: 2.5vw;
+}
+
+.four_three_one_left {
+	font-size: 4vw;
+	color: #1a191e;
+}
+
+.four_three_one_right {
+	font-size: 3.7vw;
+	color: #1a191e;
+}
+
+.four_three_two {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.9vw 3vw 0.9vw 0;
+	color: #666;
+}
+
+/* <!-- 第五块，底部遮罩 --> */
+.five {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #F5F5F5;
+	z-index: 19;
+	display: flex;
+	width: 100vw;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.five_left {
+	padding: 3vw 0 3vw 4.8vw;
+}
+
+.five_left_up {
+	font-size: 4vw;
+	color: #1a191e;
+}
+
+.five_left_down {
+	margin-top: 0.5vw;
+}
+
+.five_right {
+	background-color: #1c1717;
+	font-size: 4.3vw;
+	color: white;
+	padding: 3.4vw 13vw;
+}
+
+.five_right a {
+	/* background-color:#1c1717; */
+	font-size: 4.3vw;
+	color: white;
+	/* padding: 3.4vw 13vw; */
+}

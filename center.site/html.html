@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+
+
+
+
+		<div class="cover">
+			<header class="header-bar">
+				<p>收货人信息填写</p>
+				<span class="icon-arrow-left" data-back="true"></span>
+				<!--toggleMenu Icon--><span class="icon-menu"></span>
+				<a href="javascript:;" class="header-bar-chat"><span class="icon-chat"></span><b>客服</b></a>
+			</header>
+			<!--Hide Category-->
+			<nav class="nav">
+				<ul class="clearfix">
+					<li><a href="/"><span class="icon-home"></span>
+							<p>首页</p>
+						</a></li>
+					<li><a href="/all.html"><span class="icon-categore"></span>
+							<p>分类</p>
+						</a></li>
+					<li><a href="/Shopping/ShowCart"><span class="icon-shopcar"><i class="icon-badge">1</i></span>
+							<p>购物车</p>
+						</a></li>
+					<li><a href="/member/membercenter/"><span class="icon-user"></span>
+							<p>我的</p>
+						</a></li>
+				</ul>
+			</nav>
+			<nav class="nav-chat">
+				<ul class="cl">
+					<li class="item item-phone"><a href="tel:400-889-8188"><span class="icon"></span>400电话咨询</a></li>
+					<li class="item item-chat"><a href="#" class="chat"><span class="icon"></span>1对1在线客服</a></li>
+				</ul>
+			</nav>
+			<section class="container">
+				<form name="form1" method="post" action="" id="form1">
+					<input name="hiddenToken" type="hidden" value="139845984b43d1a0" />
+					<input type="hidden" name="act" value="save" />
+					<div class="spmc">
+						<ul>
+							<li class="small">
+								<div class="tbl-type"><span class="tbl-cell w_90">收货人姓名：</span><span class="tbl-cell"><input maxlength="10"
+										 class="common-input_2" type="text" name="to_name" id="txtTo_Name"></span></div>
+							</li>
+							<li class="small">
+								<div class="tbl-type"><span class="tbl-cell w_90">收货人手机：</span><span class="tbl-cell"><input maxlength="20"
+										 class="common-input_2" type="tel" name="to_mobile" id="txtTo_Tel"></span></div>
+							</li>
+							<li class="small" id="showCityPicker">
+								<div class="tbl-type">
+									<span class="tbl-cell w_90">省市区/县:</span>
+									<span id="cityResult">请选择</span>
+								</div>
+								<input type="hidden" name="delivery_prov" id="delivery_prov" />
+								<input type="hidden" name="delivery_city" id="delivery_city" />
+								<input type="hidden" name="delivery_area" id="delivery_area" />
+								<input type="hidden" name="delivery_area_code" id="delivery_area_code" />
+							</li>
+							<li class="small">
+								<div class="tbl-type">
+									<span class="tbl-cell w_90">详细地址：</span><span class="tbl-cell">
+										<textarea maxlength="120" class="common-input_3" name="to_address" id="to_address"></textarea>
+									</span>
+								</div>
+							</li>
+						</ul>
+						<input type="submit" class="sub_btn" value="确认保存" name="submit" onclick="return checkForm()">
+					</div>
+					<div></div>
+				</form>
+				<div class="bth_10"></div>
+				<div id="goTopBtn"><span></span></div>
+		</div>
+
+
+
+
+
+
+	</body>
+</html>

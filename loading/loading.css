@@ -1,0 +1,153 @@
+.loading {
+	overflow: hidden;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	padding: 3.2vw 4vw;
+	/* border-bottom: 1px solid #000000; */
+	position: relative;
+}
+
+.fa-angle-left {
+	font-size: 5.4vw;
+	color: black;
+}
+
+.top-right {
+	color: black;
+	font-size: 4.7vw;
+}
+
+.top::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: #cecece;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	transform: scaleY(0.5);
+}
+
+.middle {
+	/* margin-top: ; */
+	padding: 0 3.5vw;
+}
+
+.middle-cov {
+	padding-top: 30.7vw;
+}
+
+.middle-one {
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+
+.middle-one-phone {
+	font-size: 5vw;
+	color: #bbb;
+	position: absolute;
+	top: 3.8vw;
+	left: 1vw;
+	transition: all 0.3s;
+}
+
+.middle-one-int input {
+	border: 0;
+	outline: 0;
+	box-sizing: border-box;
+	padding: 4vw 0;
+	font-size: 4.5vw;
+	/* height: 14vw; */
+}
+
+.two {
+	margin-top: 1.5vw;
+	position: relative;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 0.6vw;
+}
+
+.middle-one-int input {
+	border: 0;
+	outline: 0;
+	box-sizing: border-box;
+	padding: 4vw 0;
+	font-size: 4.5vw;
+	width: 60vw;
+}
+
+.middle-one-int span {
+	font-size: 4vw;
+	color: #ffffff;
+	background-color: #ddd;
+	padding: 3vw 5vw;
+}
+
+.three {
+	margin-top: 4vw;
+	text-align: center;
+	background-color: #1a191e;
+	font-size: 4.6vw;
+	color: #FFFFFF;
+	padding: 3vw 0;
+}
+
+.four {
+	margin-top: 3.4vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.four-left a {
+	font-size: 4vw;
+	color: #BEA474;
+}
+
+.four-right a {
+	font-size: 4vw;
+	color: #1C1717;
+	padding-right: 2vw;
+}
+
+.five {
+	padding-top: 11.8vw;
+	display: flex;
+}
+
+.five-one {
+	padding: 0 7vw;
+	text-align: center;
+
+}
+
+.fa-wechat,
+.fa-qq,
+.fa-weibo {
+	font-size: 5.4vw;
+	color: #0066EE;
+}
+
+.five-one-down {
+	margin-top: 2.7vw;
+	font-size: 4vw;
+	color: #1a191e;
+}
+
+.floot-cov {
+	padding-top: 47.5vw;
+}
+
+.floot {
+
+	text-align: center;
+	background-color: #f5f5f5;
+	padding: 2vw 0;
+}
+
+.floot a {
+	color: #000000;
+	text-decoration: underline;
+}

@@ -1,0 +1,90 @@
+.register {
+	padding: 0 4.8vw;
+	overflow: hidden;
+}
+
+.top-up {
+	padding-top: 2.5vw;
+}
+
+.fa-angle-left {
+	font-size: 7vw;
+	color: black;
+}
+
+.top-down {
+	text-align: center;
+	font-size: 5.9vw;
+	color: #000000;
+}
+
+.middle {
+	margin-top: 15.2vw;
+}
+
+.middle-one-int input {
+	font-size: 3.7vw;
+	outline: 0;
+	border: 0;
+	color: #232628;
+}
+
+::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #C5CACE;
+}
+
+.middle-one {
+	position: relative;
+	padding: 4.5vw 0 3.3vw 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.middle-one::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: #cecece;
+	bottom: 0;
+	left: 0vw;
+	width: 98%;
+	transform: scaleY(0.5);
+}
+
+.middle-one-span {
+	margin-right: 3.5vw;
+	font-size: 3.5vw;
+}
+
+.iconfont-invisible,
+.iconfont-visible {
+	margin-left: 11vw;
+	/* font-size: ; */
+}
+
+.iconfont-visible {
+	display: none;
+}
+
+.down {
+	margin-top: 11.5vw;
+}
+
+.down-one {
+	padding: 3.6vw 0;
+	text-align: center;
+	color: white;
+	background-color: rgb(255, 115, 76);
+	font-size: 4.3vw;
+	box-shadow: 0 4px 8px 0 #ffb6a2;
+	border-radius: 26.7px;
+}
+.down-two{
+	text-align: center;
+	margin-top: 12.3vw;
+	font-size: 4vw;
+}
+.fa-angle-right{
+	font-size: 5vw;
+}

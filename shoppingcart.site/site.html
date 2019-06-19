@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>选择地址</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../lib/font-awesome-4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="../lib/layer/mobile/need/layer.css" />
+		<link rel="stylesheet" type="text/css" href="site.css" />
+	</head>
+	<body>
+		<div class="site">
+			<div class="top">
+				<div class="top_left">
+					<a href="../shoppingcart.account/account.html"><i class="fa fa-angle-left"></i></a>
+				</div>
+				<div class="top_middle">
+					选择地址
+				</div>
+			</div>
+			<!-- 地址 -->
+			<div class="two">
+				<!-- 一个 -->
+				<div class="two_one">
+					<div class="two_one_left">
+						<div class="two_one_up">
+							<div class="two_one-up_name">
+								<span>徐某某</span>
+							</div>
+							<div class="two_one-up_phone">
+								<span>13545674534</span>
+							</div>
+							<div class="two_one_up_default">
+								默认
+							</div>
+						</div>
+						<div class="two_one_middle">
+							<div class="two_one_middle_one">
+								<span>上海</span>
+							</div>
+							<div class="two_one_middle_two">
+								<span>上海</span>
+							</div>
+							<div class="two_one_middle_three">
+								<span>长宁区</span>
+							</div>
+							<div class="two_one_middle_four">
+								<span>城阳区某某小区</span>
+							</div>
+						</div>
+					</div>
+					<div class="two_one_right">
+						<div class="two_one_right_cover"></div>
+						<img src="img/1_03.png">
+					</div>
+					<div class="two_one_cover"></div>
+				</div>
+			</div>
+			<!-- 添加 -->
+			<div class="three">
+				<span>添加收货地址</span>
+			</div>
+		</div>
+
+		<div class="cover">
+			<div class="cover_top">
+				<div class="cover_top_left">
+					<img src="img/2.png">
+				</div>
+				<div class="cover_top_middle">
+					收货人信息填写
+				</div>
+				<div class="cover_top_right">
+					<img src="img/1.png">
+				</div>
+			</div>
+			<div class="cover_one">
+				<div class="cover_one_one">
+					<span>收货人姓名:</span>
+					<input type="" name="" id="cover_one_one_name" value="" />
+				</div>
+				<div class="cover_one_two">
+					<span>收货人手机:</span>
+					<input type="" name="" id="cover_one_two_pho" value="" />
+				</div>
+				<div class="cover_one_three" id="showCityPicker">
+					<span class="cover_one_three_span">省市区/县:</span>
+					<span id="cityResult">请选择</span>
+					<input type="hidden" name="delivery_prov" id="delivery_prov" />
+					<input type="hidden" name="delivery_city" id="delivery_city" />
+					<input type="hidden" name="delivery_area" id="delivery_area" />
+					<input type="hidden" name="delivery_area_code" id="delivery_area_code" />
+				</div>
+				<div class="cover_one_four">
+					<div class="cover_one_four_site">
+						<span>详细地址:</span>
+					</div>
+					<div class="cover_one_four_text">
+						<textarea name="" id="cover_one_four_text" cols="40" rows="5"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="cover_two">
+				确定保存
+			</div>
+		</div>
+
+		<script src="../lib/jQuery/jquery-3.3.1.min.js" type="text/javascript"></script>
+		<script src="../lib/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="site.js" type="text/javascript"></script>
+		<script src="site2.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+			$(".three").click(function() {
+				$(".site").css("display", "none");
+				$(".cover").css("display", "block");
+			})
+
+			$(".cover_top_left").click(function() {
+				$(".site").css("display", "block");
+				$(".cover").css("display", "none");
+			})
+		</script>
+	</body>
+</html>

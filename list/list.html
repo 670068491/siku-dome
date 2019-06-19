@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>分类</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../lib/font-awesome-4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="../lib/swiper-4.5.0/dist/css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="list.css" />
+	</head>
+	<body>
+		<div class="list">
+			<!-- 顶部遮罩 -->
+			<div class="one-cover">
+				<!-- 上部分 -->
+				<div class="one-cover-up">
+					<div class="one-cover-up-left">
+						<a href="../index/index.html"><i class="fa fa-long-arrow-left"></i></a>
+
+					</div>
+					<div class="one-cover-up-con">
+						戒指/指环
+					</div>
+					<div class="one-cover-up-right">
+						筛选
+					</div>
+					<!-- 筛选 -->
+					<div class="screen">
+						<div class="screen-one">
+							<div class="screen-one-left">
+								<i class="fa fa-long-arrow-left"></i>
+							</div>
+							<div class="screen-one-middle">
+								筛选
+							</div>
+							<div class="screen-one-right">
+								重置
+							</div>
+						</div>
+						<div class="screen-two">
+							<div class="screen-two-up">
+								寺库特色
+							</div>
+							<div class="screen-two-down">
+								<ul>
+									<li>包税</li>
+								</ul>
+							</div>
+						</div>
+						<div class="screen-three">
+							<div class="screen-three-up">
+								分类
+							</div>
+							<div class="screen-three-down">
+								<ul>
+									<li>首饰</li>
+									<li>3C数码</li>
+								</ul>
+							</div>
+						</div>
+						<div class="screen-five">
+							<div class="screen-five-up">
+								<span>价格</span>
+								<i class="fa fa-angle-down"></i>
+							</div>
+							<div class="screen-five-down">
+								<ul>
+									<li><input type="" name="" id="" value="" placeholder="最低价" /></li>
+									<li><input type="" name="" id="" value="" placeholder="最高价" /></li>
+									<div class="screen-five-down-cov"></div>
+								</ul>
+							</div>
+						</div>
+						<div class="screen-four">
+							<div class="screen-four-up">
+								品牌
+							</div>
+							<div class="screen-four-down">
+								<ul>
+									<li>（宝姐）珠宝</li>
+									<li>#ONE by YIFAN WANG</li>
+									<li>4度</li>
+									<li>5 Octobre</li>
+									<li>爱马仕</li>
+									<li>爱莎灵性珠宝</li>
+									<li>安吉利亚 尤兰达</li>
+									<li>安境</li>
+									<span>全部品牌<i class="fa fa-angle-right"></i></span>
+								</ul>
+							</div>
+						</div>
+						<div class="screen-six">
+							<div class="screen-six-up">
+								优惠
+							</div>
+							<div class="screen-six-down">
+								<ul>
+									<li>会员价</li>
+									<li>直降</li>
+									<li>满减</li>
+								</ul>
+							</div>
+						</div>
+						<div class="screen-seven">
+							<div class="screen-seven-up">
+								<span>风格</span>
+								<i class="fa fa-angle-down"></i>
+								<i class="fa fa-angle-up"></i>
+							</div>
+							<div class="screen-seven-down">
+								<ul>
+									<li>休闲百搭</li>
+									<li>时尚优雅</li>
+									<li>欧美风格</li>
+									<li>经典复古</li>
+									<li>奢华贵族</li>
+									<li>甜美可爱</li>
+									<li>日韩风格</li>
+								</ul>
+							</div>
+						</div>
+						<div class="screen-eight">
+							<div class="screen-eight-up">
+								<span>发货地</span>
+								<i class="fa fa-angle-down"></i>
+								<i class="fa fa-angle-up"></i>
+							</div>
+							<div class="screen-eight-down">
+								<ul>
+									<li>大陆</li>
+									<li>香港</li>
+									<li>美国</li>
+									<li>欧洲</li>
+									<li>韩国</li>
+									<li>澳洲</li>
+									<li>新西兰</li>
+								</ul>
+							</div>
+						</div>
+						<div class="screen-nine">
+							确定
+						</div>
+
+
+					</div>
+					<!-- 遮罩 -->
+					<div class="screen-cover"></div>
+				</div>
+				<!-- 下部分 -->
+				<div class="one-cover-down" id="one-cover-down">
+					<!-- 一个 -->
+					<div class="one-cover-down-one" id="one-cover-sork">
+						综合排序<i class="fa fa-caret-down"></i>
+					</div>
+					<!-- 一个 -->
+					<div class="one-cover-down-one">
+						销量
+					</div>
+					<!-- 一个 -->
+					<div class="one-cover-down-one" id="style">
+						风格<i class="fa fa-caret-down"></i>
+					</div>
+					<!-- 一个 -->
+					<div class="one-cover-down-one">
+						包税
+					</div>
+					<!-- 一个 -->
+					<div class="one-cover-down-one">
+						品牌<i class="fa fa-caret-down"></i>
+					</div>
+					<!-- 一个 -->
+					<div class="one-cover-down-one">
+						优惠<i class="fa fa-caret-down"></i>
+					</div>
+
+					<!-- 综合排序 -->
+					<div class="sork">
+						<div class="sork-one">
+							<span>综合排序</span>
+							<i class="fa fa-check"></i>
+						</div>
+						<div class="sork-one">
+							<span>价格升序</span>
+						</div>
+						<div class="sork-one">
+							<span>价格降序</span>
+						</div>
+						<div class="sork-one">
+							<span>新品</span>
+						</div>
+						<div class="sork-one">
+							<span>折扣</span>
+						</div>
+					</div>
+					<!-- 品牌 -->
+					<div class="brand">
+						<div class="brand-up">
+							<ul class="brand-up-ul">
+								<li>休闲百搭<i class="fa fa-check"></i></li>
+								<li>时尚优雅<i class="fa fa-check"></i></li>
+								<li>欧美风格<i class="fa fa-check"></i></li>
+								<li>经典复古<i class="fa fa-check"></i></li>
+								<li>奢华贵族<i class="fa fa-check"></i></li>
+								<li>甜美可爱<i class="fa fa-check"></i></li>
+								<li>日韩风格<i class="fa fa-check"></i></li>
+							</ul>
+						</div>
+						<div class="brand-down">
+							<div class="brand-down-left">
+								清空
+							</div>
+							<div class="brand-down-right">
+								确定
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 商品 -->
+			<div class="two">
+				<!-- 遮罩 -->
+				<div class="page-mask"></div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/1.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">ALITA</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">ALIITA 18年春夏 简约 女士 时尚 棕色 戒指/指环</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥2,702</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/2.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#"> CARTIER</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">CDE CARTIER系列男女同款镌刻结婚对戒宽3毫米玫瑰金镶戒指 指环 B4086400-BA12</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥10,767</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="../list.details/details.html"><img src="img/3.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">BVLGARI</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#"></a>男女同款慈善款时尚单圈戒指百搭镶嵌黑色陶瓷 戒指/指环 AN855770-BA0199
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥4,980</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oldmoney">
+						￥5,502
+					</div>
+					<div class="two-one-oneself">
+						自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/4.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#"> APM MONACO</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">紫色红色小方块爱心形戒指女 A19136OX A19136XKR S925银时尚指环首饰品</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥808</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/5.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">APM MONACO</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">菠萝戒指女 水果造型指环 A18494XKGY 个性时尚银首饰品</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥694</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/6.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">BVLGARI</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">慈善戒指/指环 男女同款 #AN855770</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥4299</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/7.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">ALEXANDER MCQUEEN</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">亚历山大麦昆/Alexander McQueen 19年春夏 女性 时尚 金色 戒指/指环 553656 J160K 7285</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥1122</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/8.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">ENZO</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">茜茜公主III18K金红宝石&钻石戒指戒指 首饰 戒指/指环</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥1049</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						每满3000减300 / 自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/9.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">ALEXANDER MCQUEEN</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">亚历山大麦昆/Alexander McQueen 19年春夏 女性 时尚 银色 戒指/指环 553656 J160Y 1177</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥1049</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						每满3000减300 / 自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/10.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">ENZO</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">情迷Milano系列可爱猫耳朵玫瑰金色18K金钻石戒指 戒指 首饰 戒指/指环</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥1049</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						每满3000减300 / 自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/11.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">DAARTEMIS</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">曲线系列 铜镀金 花瓣果实造型戒指 戒指 戒指/指环 首饰 饰品 无有乐园</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥349</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oldmoney">
+						￥448
+					</div>
+					<div class="two-one-oneself">
+						每满3000减300 / 自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/0cdce80513594c81bae439b41ad9208a.jpg_!!0x0.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">ENZO</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">经典彩宝系列 18K金摩根石 宝石戒指/指环宝石戒指 10号 首饰 戒指</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥2629</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						每满3000减300 / 自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/2b9fa50e5e354c17b5fca16e5e20e63d.jpg_!!0x0.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">ENZO</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">甜果时光系列 18K金托帕石 宝石戒指 戒指 首饰 戒指/指环</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥2029</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						每满3000减300 / 自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/2f10606c4d0240bab9b55e30b7f9fb3b.jpg_!!0x0.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">ENZO</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">甜果时光系列 18K金紫晶 宝石戒指 戒指 首饰 戒指/指环</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥1959</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						每满3000减300 / 自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/3c1355d4c92e4afd854ea6a8b0686868.jpg_!!0x0.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">ALEXANDER MCQUEEN</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">亚历山大麦昆/Alexander McQueen 19年春夏 时尚 玫瑰金色 戒指/指环 550501 J160K 7295</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥1333</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/3d98c9b2b0e544bbbf880324b432def4.jpg_!!0x0.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">ENZO</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">情迷Milano系列玫瑰金色18K金钻石戒指 15号 戒指 首饰 戒指/指环</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥1509</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						每满3000减300 / 自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/3db98014ec424a1ba6918caf59b50e1a.jpg_!!0x0.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">ENZO</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">甜果时光系列 18K金芙蓉石 宝石戒指 15号 戒指 首饰 戒指/指环</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥2889</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						每满3000减300 / 自营
+					</div>
+				</div>
+				<!-- 一个 -->
+				<div class="two-one">
+					<div class="two-one-img">
+						<a href="#"><img src="img/4cb2e8e64e9e457d87f9ae08a021aaed.jpg_!!0x0.jpg"></a>
+					</div>
+					<div class="two-one-name">
+						<a href="#">HEFANG JEWELRY</a>
+					</div>
+					<div class="two-one-describe">
+						<a href="#">马戏团系列 爆米花戒指 925纯银女轻奢小众设计指环</a>
+					</div>
+					<!-- 价格 -->
+					<div class="two-one-money">
+						<span class="two-one-money-money">￥980</span>
+						<span class="two-one-money-vip">会员再减</span>
+					</div>
+					<div class="two-one-oneself">
+						自营
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+		<script src="../lib/jQuery/jquery-3.3.1.min.js" type="text/javascript"></script>
+		<!-- <script src="../../lib/hammer.min.js" type="text/javascript"></script> -->
+		<script type="text/javascript">
+			//滚动事件
+			// var maxTop = $(".pc-top ").offset().top;
+			$(window).scroll(function(e) {
+				var scrollTop = $(this).scrollTop();
+				// console.log(maxTop);
+				// console.log(scrollTop);
+				if (scrollTop > 130) {
+					$(".one-cover").css("top", "-42px");
+				} else {
+					$(".one-cover").css("top", "0px");
+				};
+			})
+			$("#one-cover-sork").click(function() {
+				$(".page-mask").css("display", "block");
+				$(".sork").css("top", "23.3vw");
+				$(".sork").css("opacity", "1");
+				// $(".sork").css("display", "block");
+			})
+			$(".two").click(function() {
+				$(".sork").css("top", "-90vw");
+				$(".sork").css("opacity", "0");
+				$(".page-mask").css("display", "none");
+			})
+			$(".brand-up-ul li").click(function() {
+				//判断是否有active
+				var flag = $(this).hasClass("active");
+				//移除所有active
+				// $(".brand-up-ul li").removeClass("active");
+				// $(".brand-up-ul i").css("display", "none");
+				if (flag) {
+					$(this).removeClass("active");
+					$(this).find("i").css("display", "none");
+				} else {
+					$(this).addClass("active");
+					$(this).find("i").css("display", "inline-block");
+				}
+			});
+			$(".brand-down-left ").click(function() {
+				//移除所有active
+				$(".brand-up-ul li").removeClass("active");
+				$(".brand-up-ul i").css("display", "none");
+			})
+			$("#style").click(function() {
+				$(".page-mask").css("display", "block");
+				$(".brand").css("top", "23.3vw");
+				$(".brand").css("opacity", "1");
+			})
+			$(".brand-down-right").click(function() {
+				$(".page-mask").css("display", "none");
+				$(".brand").css("top", "-82vw");
+				$(".brand").css("opacity", "0");
+			})
+			$(".two").click(function() {
+				$(".page-mask").css("display", "none");
+				$(".brand").css("top", "-82vw");
+				$(".brand").css("opacity", "0");
+			})
+			$(".screen-two-down li").click(function() {
+				//判断是否有active
+				var flag = $(this).hasClass("active");
+				//移除所有active
+				$(".screen-two-down li").removeClass("active");
+				if (flag) {
+					$(this).removeClass("active");
+				} else {
+					$(this).addClass("active");
+				}
+			});
+			$(".screen-three-down li").click(function() {
+				//判断是否有active
+				var flag = $(this).hasClass("active");
+				//移除所有active
+				$(".screen-three-down li").removeClass("active");
+				if (flag) {
+					$(this).removeClass("active");
+				} else {
+					$(this).addClass("active");
+				}
+			});
+			$(".screen-four-down li").click(function() {
+				//判断是否有active
+				var flag = $(this).hasClass("active");
+				//移除所有active
+				$(".screen-four-down li").removeClass("active");
+				if (flag) {
+					$(this).removeClass("active");
+				} else {
+					$(this).addClass("active");
+				}
+			});
+			$(".screen-six-down li").click(function() {
+				//判断是否有active
+				var flag = $(this).hasClass("active");
+				//移除所有active
+				$(".screen-six-down li").removeClass("active");
+				if (flag) {
+					$(this).removeClass("active");
+				} else {
+					$(this).addClass("active");
+				}
+			});
+			$(".screen-seven-down li").click(function() {
+				//判断是否有active
+				var flag = $(this).hasClass("active");
+				//移除所有active
+				$(".screen-seven-down li").removeClass("active");
+				if (flag) {
+					$(this).removeClass("active");
+				} else {
+					$(this).addClass("active");
+				}
+			});
+			$(".screen-eight-down li").click(function() {
+				//判断是否有active
+				var flag = $(this).hasClass("active");
+				//移除所有active
+				$(".screen-eight-down li").removeClass("active");
+				if (flag) {
+					$(this).removeClass("active");
+				} else {
+					$(this).addClass("active");
+				}
+			});
+			$(".one-cover-up-right").click(function() {
+				$(".screen").css("right", "0");
+				$(".screen-cover").css("display", "block");
+			})
+			$(".screen-cover").click(function() {
+				$(".screen").css("right", "-100vw");
+				$(".screen-cover").css("display", "none");
+			})
+			$(".screen-nine").click(function() {
+				$(".screen").css("right", "-100vw");
+				$(".screen-cover").css("display", "none");
+			})
+			$(".screen-one-right").click(function() {
+				$(".screen li").removeClass("active");
+			})
+			// 7
+			$(".screen-seven-up .fa-angle-down").click(function() {
+				$(".screen-seven-down ul").css("height", "41.6vw");
+				$(this).css("display", "none");
+				$(".screen-seven-up .fa-angle-up").css("display", "inline-block");
+			})
+			$(".screen-seven-up .fa-angle-up").click(function() {
+				$(".screen-seven-down ul").css("height", "0vw");
+				$(this).css("display", "none");
+				$(".screen-seven-up .fa-angle-down").css("display", "inline-block");
+			})
+
+			// 8
+			$(".screen-eight-up .fa-angle-down").click(function() {
+				$(".screen-eight-down ul").css("height", "41.6vw");
+				$(this).css("display", "none");
+				$(".screen-eight-up .fa-angle-up").css("display", "inline-block");
+			})
+			$(".screen-eight-up .fa-angle-up").click(function() {
+				$(".screen-eight-down ul").css("height", "0vw");
+				$(this).css("display", "none");
+				$(".screen-eight-up .fa-angle-down").css("display", "inline-block");
+			})
+			$(".screen-one-left .fa-long-arrow-left").click(function() {
+				$(".screen").css("right", "-100vw");
+				$(".screen-cover").css("display", "none");
+			})
+
+			$(".two a").attr("href", "../list.details/details.html");
+		</script>
+	</body>
+</html>

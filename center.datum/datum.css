@@ -1,0 +1,241 @@
+html {
+	background-color: #E9ECF0;
+	height: 100%;
+}
+
+body {}
+
+.datum {
+	background-color: white;
+	padding: 2.1vw 3.2vw;
+	overflow: hidden;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 2.1vw;
+	position: relative;
+}
+
+.top::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: #cecece;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	transform: scaleY(0.5);
+}
+
+.fa-angle-left {
+	color: #232628;
+	font-size: 6vw;
+	padding-left: 4vw;
+}
+
+.top-middle {
+	font-size: 4.3vw;
+	color: #232628;
+}
+
+.top-right {
+	padding-right: 1vw;
+	font-size: 4.3vw;
+	color: #232628;
+}
+
+.top-right a {
+	/* padding-right: 1vw; */
+	font-size: 4.3vw;
+	color: #232628;
+}
+
+.one {
+	padding: 5.4vw 0 7vw 0;
+	text-align: center;
+	position: relative;
+}
+
+.one::after,
+.two::after,
+.three::after,
+.four::after,
+.five::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: #cecece;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	transform: scaleY(0.5);
+}
+
+.one-up {
+	position: relative;
+}
+
+.one-up img {
+	border-radius: 50%;
+	max-width: 17.1vw;
+}
+
+.one-cover {
+	position: absolute;
+	top: 2.5vw;
+	left: 34.7vw;
+	background-color: white;
+	border: 0;
+	opacity: 0;
+	padding: 4vw;
+}
+
+.one-down {
+	margin-top: 1vw;
+	color: black;
+}
+
+.two,
+.three,
+.four,
+.five,
+.six {
+	display: flex;
+	padding: 5.3vw 0;
+	position: relative;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+
+.two-left {
+	font-size: 4.5vw;
+	color: #000;
+	padding-right: 13.8vw;
+	vertical-align: middle;
+}
+
+.two-right input {
+	font-size: 3.3vw;
+	outline: 0;
+	border: 0;
+}
+
+::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #B4BABF;
+}
+
+.three-middle {
+	vertical-align: middle;
+	/* padding-top: 0.5vw; */
+}
+
+.three-middle span {
+	color: #232628;
+	font-size: 4vw;
+}
+
+.three-right {
+	padding-left: 30vw;
+}
+
+.three-right span {
+	color: #B4BABF;
+	font-size: 3.4vw;
+}
+
+.three-right .fa-angle-right {
+	color: #B4BABF;
+	padding-left: 1vw;
+	font-size: 5vw;
+}
+
+.four-middle input {
+	font-size: 3.3vw;
+	outline: 0;
+	border: 0;
+}
+
+.four-right {
+	padding-left: 21vw;
+}
+
+.four-right span {
+	color: #FF734C;
+	font-size: 3.4vw;
+}
+
+.four-right .fa-angle-right {
+	color: #FF734C;
+	padding-left: 1vw;
+	font-size: 5vw;
+}
+
+/* five */
+.five-middle {
+	display: flex;
+	align-items: center;
+}
+
+.five-middle-left {
+	padding-right: 21.2vw;
+	position: relative;
+}
+
+.five-middle-left input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 5vw;
+	height: 5vw;
+	opacity: 0;
+}
+
+.five-middle-left span {
+	padding-left: 1.3vw;
+	font-size: 4vw;
+	color: #232628;
+}
+
+.iconfont-checkout {
+	color: #000000;
+}
+
+.six-right input {
+	font-size: 4vw;
+	/* background-color: #232628; */
+	color: #232628;
+	border: 0;
+	outline: 0;
+}
+
+/* .date_btn_box { */
+.date_btn_box {
+	background-color: white !important;
+}
+
+.date_ctrl {
+	background-color: white !important;
+}
+
+.date_btn {
+	color: black !important;
+	font-weight: normal !important;
+}
+
+.lcalendar_finish {
+	color: #FF734C !important;
+}
+
+.tooth {
+	font-weight: normal ;
+}
+
+.date_grid {
+	opacity: 0;
+}
+.date_btn_box::after{
+	background-color: white !important;
+}

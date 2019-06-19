@@ -1,0 +1,81 @@
+body {
+	color: #737373;
+}
+
+.classify {
+	overflow: hidden;
+}
+
+.top {
+	display: flex;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	background: #fff;
+	z-index: 1;
+	padding: 1vw 0;
+	border-bottom: 1px solid #adadad;
+}
+
+.top_left {
+	padding: 2vw 3vw 0 3vw;
+}
+
+.top_left img {
+	width: 4.3vw;
+}
+
+.top_text_left {
+	text-align: center;
+	background-color: #474747;
+	color: white;
+	font-size: 3.2vw;
+	padding: 1.9vw 16vw;
+}
+
+.top_text_right {
+	text-align: center;
+	background-color: #fff;
+	color: #474747;
+	font-size: 3.2vw;
+	padding: 1.9vw 16vw;
+	border: 1px solid #eaeaea;
+}
+
+.top_right {
+	padding: 1.34vw 3vw 0 3.4vw;
+}
+
+.top_right img {
+	width: 5.4vw;
+}
+
+/* <!-- 分类 --> */
+.class {
+	margin-top: 10.2vw;
+}
+
+.class_one_top {
+	background-color: #eaeaea;
+	font-size: 3.7vw;
+	text-align: center;
+	padding: 2.4vw 0;
+	font-weight:bold;
+}
+.class_one_bottom{
+	display: flex;
+	padding: 5.3vw 0;
+	flex-wrap: wrap;
+}
+
+.class_one_bottom_one{
+	/* text-align: center; */
+	width: 25%;
+	box-sizing: border-box;
+	padding-left: 5vw;
+	margin: 4.4vw 0;
+}
+.class_one_bottom_one a{
+	font-size: 3.2vw;
+}

@@ -1,0 +1,300 @@
+body {
+	color: #232628;
+}
+a{
+	color: #232628;
+}
+.center {
+	background-image: url(img/backgroundv3.png);
+	background-repeat: no-repeat;
+	background-position: 0px 42px;
+	background-size: 100vw 34.8vw;
+	background-color: #E9ECF0;
+	/* background-size: 100%; */
+	height: 100%;
+	overflow: hidden;
+}
+
+/* <!-- 顶部 --> */
+.top {
+	display: flex;
+	background-color: white;
+	/* justify-content: space-between; */
+}
+
+.top-left .fa-angle-left {
+	font-size: 7.3vw;
+	color: #232628;
+	padding: 1.5vw 0 0 3.6vw;
+}
+
+.top-middle {
+	margin-left: 33vw;
+	padding: 2.9vw 0vw;
+	font-size: 4.3vw;
+	color: #232628;
+}
+
+/* <!-- 第一块 --> */
+.one {
+	display: flex;
+	padding: 5.3vw 21.3vw;
+}
+
+.one-img {}
+
+.one-img img {
+	max-width: 16vw;
+	border-radius: 50%;
+	border: 1px solid #FFFFFF;
+}
+
+.one-text {
+	padding: 2.9vw 0 0 4.8vw;
+}
+
+.one-text-up {
+	font-size: 3.7vw;
+	color: white;
+}
+.one-text-up a{
+	font-size: 3.7vw;
+	color: white;
+}
+.one-text-down {
+	margin-top: 1vw;
+	background-color: #FE6600;
+	border-radius: 3vw;
+	padding: 1vw;
+}
+
+.one-text-down span {
+	color: white;
+	vertical-align: middle;
+}
+
+.one-text-down img {
+	vertical-align: middle;
+}
+
+/* <!-- 第二块 --> */
+.two {
+	background-color: white;
+	margin: 0 2.1vw;
+	border-radius: 1.5vw;
+}
+
+.two-up {
+	display: flex;
+	padding: 2.9vw 5vw;
+	position: relative;
+}
+
+.two-up::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: #cecece;
+	bottom: 0;
+	left: 4vw;
+	width: 90%;
+	transform: scaleY(0.5);
+}
+
+.two-down {
+	display: flex;
+}
+
+.two-up-left {
+	font-size: 4.3vw;
+}
+
+.two-up-right {
+	padding-left: 47.7vw;
+}
+
+.two-up-right span {
+	font-size: 4.3vw;
+}
+.two-up-right  a{
+	font-size: 4.3vw;
+}
+.two-up-right .fa-angle-right {
+	font-size: 5.3vw;
+}
+
+.two-down {
+	padding: 3.2vw 0;
+}
+
+.two-down-one {
+	padding: 0 10vw;
+}
+
+.two-down-one-img {
+	text-align: center;
+}
+
+.two-down-one-img img {
+	max-width: 8.6vw;
+}
+
+.two-down-one-text {
+	text-align: center;
+	font-size: 3.5vw;
+}
+
+/* <!-- 第三块 --> */
+.three {
+	/* margin-top: 4vw; */
+	display: flex;
+	background-color: white;
+	margin: 2.5vw 2.1vw;
+	border-radius: 1.5vw;
+	flex-wrap: wrap;
+	position: relative;
+	/* padding: 5.9vw; */
+}
+
+.three-one {
+	/* padding: 5.2vw 6.7vw; */
+	width: 25%;
+	box-sizing: border-box;
+	padding: 5.3vw 0;
+}
+
+.three-one-img {
+	text-align: center;
+}
+
+.iconfont-coupon,
+.iconfont-equitycard,
+.iconfont-balance,
+.iconfont-diamond,
+.iconfont-clock,
+.iconfont-collect {
+	font-size: 5.4vw;
+	color: #232628;
+}
+
+.three-one-text {
+	margin-top: 2.9vw;
+	text-align: center;
+	/* font-size: ; */
+}
+.three-one-text a{
+	color: #232628;
+
+}
+.three::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: #cecece;
+	bottom: 22.7vw;
+	left: 4vw;
+	width: 90%;
+	transform: scaleY(0.5);
+}
+
+/* <!-- 第四块 --> */
+
+.four {
+	/* margin-top: 4vw; */
+	display: flex;
+	background-color: white;
+	margin: 2.5vw 2.1vw;
+	border-radius: 1.5vw;
+	flex-wrap: wrap;
+}
+
+.four-one {
+	/* padding: 5.2vw 6.7vw; */
+	width: 25%;
+	box-sizing: border-box;
+	padding: 5.3vw 0;
+}
+
+.four-one-img {
+	text-align: center;
+}
+
+.iconfont-sevice,
+.iconfont-question,
+.iconfont-info,
+.iconfont-cog {
+	font-size: 5.4vw;
+	color: #232628;
+}
+
+.four-one-text {
+	margin-top: 2.9vw;
+	text-align: center;
+	/* font-size: ; */
+	color: #232628;
+}
+
+.four-one-text a{
+	color: #232628;
+}
+
+
+
+
+/* -- 底部遮罩 --> */
+.floot-cover {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: white;
+	/* width: 100%; */
+	z-index: 20;
+	/* padding: 0 3.7vw; */
+	display: flex;
+}
+
+.floot-cover-one {
+	padding: 1vw 4vw 0 3vw;
+	width: 13.2vw;
+	/* box-sizing: border-box; */
+	/* width: 22%; */
+}
+
+.floot-cover-one-up {
+	text-align: center;
+}
+
+.icon-home,
+.icon-brand,
+.icon-classify,
+.icon-shopping-bag,
+.icon-my {
+	font-size: 7vw;
+	color: #1a191e;
+}
+
+.floot-cover-one-down {
+	margin-top: 0.7vw;
+	text-align: center;
+	color: #1a191e;
+}
+
+.floot-cover-one-down a {
+	/* margin-top: 0.7vw; */
+	/* text-align: center; */
+	color: #1a191e;
+}
+
+.floot-cover-one:nth-child(5) .icon-my {
+	color: #f8a120;
+}
+
+.floot-cover-one:nth-child(5) .floot-cover-one-up .icon-home {
+	color: #f8a120;
+}
+
+.icon-backtop {
+	display: none;
+	color: #f8a120;
+	font-size: 7vw;
+}
