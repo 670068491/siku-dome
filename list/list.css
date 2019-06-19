@@ -71,9 +71,8 @@
 	color: black;
 	margin: 0 1vw;
 	padding: 2vw 4vw;
-	border-bottom: 1px solid #e1e1e1;
-	border-left: 1px solid #e1e1e1;
-	border-right: 1px solid #e1e1e1;
+	border: 1px solid #e1e1e1;
+
 }
 
 .fa-caret-down {
@@ -82,9 +81,8 @@
 
 .one-cover-down-one:nth-child(1) {
 	color: #f8a120;
-	border-bottom: 1px solid #f8a120;
-	border-left: 1px solid #f8a120;
-	border-right: 1px solid #f8a120;
+	border: 1px solid #f8a120;
+
 }
 
 /* <!-- 商品 --> */
