@@ -14,11 +14,39 @@
 		<div class="home">
 			<!-- 顶部 -->
 			<div class="head-cover">
+				<!-- 1广告 -->
+				<div class="head-cover-img">
+					<div class="head-cover-img-img">
+						<img src="img/image/download111.png">
+					</div>
+					<div class="head-cover-img-text">
+						<div class="head-cover-img-text-top">
+							寺库
+						</div>
+						<div class="head-cover-img-text-foot">
+							新用户注册送2500元大礼包
+						</div>
+					</div>
+					<div class="head-cover-img-open">
+						<span>立即打开</span>
+					</div>
+				</div>
+				<!-- 2搜索 -->
 				<div class="head-cover-top">
 					<a href="#">
 						<i class="fa fa-search"></i>
 						<span>Maria Luisa盛大入住</span>
 					</a>
+				</div>
+				<!-- 3,选项 -->
+				<div class="head-cover-option">
+					<div class="head-cover-option-left">
+						618返场
+						<div class="head-cover-option-cover"></div>			
+					</div>
+					<div class="head-cover-option-right">
+						品牌街
+					</div>
 				</div>
 			</div>
 			<!-- 第一块,轮播加分类 -->
@@ -498,7 +526,9 @@
 				</div>
 				<div class="floot-cover-one">
 					<div class="floot-cover-one-up">
-						<i class="iconfont icon-classify"></i>
+						<a href="../classify/classify.html">
+							<i class="iconfont icon-classify"></i>
+						</a>
 					</div>
 					<div class="floot-cover-one-down">
 						<a href="../classify/classify.html">分类</a>
@@ -506,7 +536,10 @@
 				</div>
 				<div class="floot-cover-one">
 					<div class="floot-cover-one-up">
-						<i class="iconfont icon-shopping-bag"></i>
+						<a href="../shoppingcart/shoppingtrolley.html">
+							<i class="iconfont icon-shopping-bag"></i>
+						</a>
+
 					</div>
 					<div class="floot-cover-one-down">
 						<a href="../shoppingcart/shoppingtrolley.html">购物袋</a>
@@ -514,7 +547,9 @@
 				</div>
 				<div class="floot-cover-one">
 					<div class="floot-cover-one-up">
-						<i class="iconfont icon-my"></i>
+						<a href="../center/center.html">
+							<i class="iconfont icon-my"></i>
+						</a>
 					</div>
 					<div class="floot-cover-one-down">
 						<a href="../center/center.html">我的</a>
@@ -584,7 +619,10 @@
 					scrollTop: 0,
 				})
 			})
-			
+			//点击切换
+			$(".head-cover-option-right").click(function() {
+			// $(".icon-backtop").css(display,none)
+			})
 		</script>
 	</body>
 </html>

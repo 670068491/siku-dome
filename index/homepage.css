@@ -9,7 +9,7 @@ body {
 }
 
 .head-cover {
-	padding: 6vw 3.5vw 12.3vw 3.5vw;
+	padding: 0vw 5vw 0vw 4.5vw;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -18,26 +18,94 @@ body {
 	z-index: 20;
 }
 
+.head-cover-img {
+	display: flex;
+	padding: 1.6vw 0vw 0 0vw;
+}
+
+.head-cover-img-img img {
+	width: 12vw;
+
+}
+
+.head-cover-img-text {
+	margin-left: 3.2vw;
+	padding-top: 1.4vw;
+}
+
+.head-cover-img-text-top {
+	color: #000000;
+	font-size: 4.3vw;
+}
+
+.head-cover-img-text-foot {
+	padding-top: 0.3vw;
+	color: #666;
+}
+
+.head-cover-img-open {
+	margin-left: 18.6vw;
+	margin-top: 4.3vw;
+}
+
+.head-cover-img-open span {
+	color: #000000;
+	font-size: 3.7vw;
+	border: 1px solid #000000;
+	padding: 1.1vw;
+}
+
 .head-cover-top {
+	margin-top: 3.2vw;
 	background-color: #f5f5f5;
 	padding: 1.9vw 2.9vw;
-	width: 87.3vw;
+	width: 85.3vw;
 }
 
 .fa-search {
 	font-size: 4.7vw;
 	padding-right: 3.7vw;
-	color: black;
+	color: #1c1717;
 }
 
 .head-cover-top span {
-	font-size: 4.7vw;
+	font-size: 4vw;
 	color: #ccc;
+}
+
+.head-cover-option {
+	display: flex;
+
+}
+
+.head-cover-option-left {
+	padding: 4.1vw 0;
+	margin-right: 5.1vw;
+	color: #000000;
+	font-size: 4vw;
+	font-weight: bold;
+	position: relative;
+}
+
+.head-cover-option-right {
+	color: #000000;
+	font-size: 4vw;
+	padding: 4.1vw 0;
+	font-weight: bold;
+}
+
+.head-cover-option-cover {
+	position: absolute;
+	background-color: rgb(248, 161, 32);
+	width: 8vw;
+	height: 0.8vw;
+	bottom: 0;
+	left: 15px;
 }
 
 /* 第一块轮播 */
 .one {
-	margin-top: 27.7vw;
+	margin-top: 39.7vw;
 	background-color: white;
 	width: 100%;
 }
@@ -158,9 +226,11 @@ body {
 	overflow-x: auto;
 	background-color: white;
 }
+
 .three::-webkit-scrollbar {
 	display: none;
 }
+
 .three-one {
 	margin-left: 5.3vw;
 	padding-bottom: 8.5vw;
@@ -383,13 +453,14 @@ body {
 	margin-top: 3vw;
 	padding: 6.4vw 0vw;
 }
-.eight-two{
+
+.eight-two {
 	background-color: white;
 	margin-top: 3vw;
 	padding: 6.4vw 0vw;
 	margin-bottom: 20vw;
 }
-	
+
 .eight-up {
 	padding-left: 3.2vw;
 }
@@ -498,11 +569,13 @@ body {
 	text-align: center;
 	color: #1a191e;
 }
-.floot-cover-one-down a{
+
+.floot-cover-one-down a {
 	/* margin-top: 0.7vw; */
 	/* text-align: center; */
 	color: #1a191e;
 }
+
 .floot-cover-one:nth-child(1) .floot-cover-one-down {
 	color: #f8a120;
 }
