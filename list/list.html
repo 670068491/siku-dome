@@ -65,11 +65,13 @@
 								<i class="fa fa-angle-down"></i>
 							</div>
 							<div class="screen-five-down">
-								<ul>
-									<li><input type="" name="" id="" value="" placeholder="最低价" /></li>
-									<li><input type="" name="" id="" value="" placeholder="最高价" /></li>
-									<div class="screen-five-down-cov"></div>
-								</ul>
+								<div class="screen-five-down-int" id="screen-five-down-int">
+									<input type="text" name="" id="" value="" placeholder="最低价" />
+								</div>
+								<div class="screen-five-down-int">
+									<input type="text" name="" id="" value="" placeholder="最高价" />
+								</div>
+								<div class="screen-five-down-cov"></div>
 							</div>
 						</div>
 						<div class="screen-four">
@@ -608,15 +610,28 @@
 				};
 			})
 			$("#one-cover-sork").click(function() {
+				$(".sork").css("display", "block");
+				$(".sork").stop(true).animate({
+					top: "24vw",
+					opacity: 1,
+				})
 				$(".page-mask").css("display", "block");
-				$(".sork").css("top", "23.3vw");
-				$(".sork").css("opacity", "1");
-				// $(".sork").css("display", "block");
 			})
 			$(".two").click(function() {
-				$(".sork").css("top", "-90vw");
-				$(".sork").css("opacity", "0");
-				$(".page-mask").css("display", "none");
+				// $(".page-mask").css("display", "none");
+				$(".sork").stop(true).animate({
+					top: "-51vw",
+					opacity: 0.1,
+				}, 500);
+				$(".brand").stop(true).animate({
+					top: "-55vw",
+					opacity: 0.7,
+				}, 500);
+				setTimeout(function() {
+					$(".sork").css("display", "none");
+					$(".brand").css("display", "none");
+					$(".page-mask").css("display", "none");
+				}, 500);
 			})
 			$(".brand-up-ul li").click(function() {
 				//判断是否有active
@@ -638,20 +653,20 @@
 				$(".brand-up-ul i").css("display", "none");
 			})
 			$("#style").click(function() {
+				$(".brand").css("display", "block");
+				$(".brand").stop(true).animate({
+					top: "24vw",
+					opacity: 1,
+				})
 				$(".page-mask").css("display", "block");
-				$(".brand").css("top", "23.3vw");
-				$(".brand").css("opacity", "1");
 			})
 			$(".brand-down-right").click(function() {
 				$(".page-mask").css("display", "none");
 				$(".brand").css("top", "-82vw");
 				$(".brand").css("opacity", "0");
 			})
-			$(".two").click(function() {
-				$(".page-mask").css("display", "none");
-				$(".brand").css("top", "-82vw");
-				$(".brand").css("opacity", "0");
-			})
+
+
 			$(".screen-two-down li").click(function() {
 				//判断是否有active
 				var flag = $(this).hasClass("active");

@@ -195,8 +195,10 @@ body {
 .floot_one {
 	background-color: white;
 	text-align: center;
-	padding: 3.8vw 10.3vw 1.3vw 10.3vw;
-	margin: 0 0.8vw;
+	padding: 3.8vw 0vw 1.3vw 0vw;
+	margin: 0 1vw;
+	box-sizing: border-box;
+	width: 33%;
 	border: 1px solid #cecece;
 }
 

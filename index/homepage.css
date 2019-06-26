@@ -45,7 +45,7 @@ body {
 
 .head-cover-img-open {
 	margin-left: 18.6vw;
-	margin-top: 4.3vw;
+	margin-top: 6.3vw;
 }
 
 .head-cover-img-open span {
@@ -348,10 +348,12 @@ body {
 
 }
 
-.focus .bd li {}
+.focus .bd li {
+	
+}
 
 .focus .bd li img {
-	width: 90.5vw;
+	width: 91vw;
 	height: 59.5vw;
 	/* background: url(images/loading.gif) center center no-repeat; */
 }

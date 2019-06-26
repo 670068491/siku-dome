@@ -15,16 +15,16 @@
 				<div class="top-one">
 					<a href="../list/list.html"><img src="img/icon-left.png"></a>
 				</div>
-				<div class="top-two">
+				<div class="top-two active">
 					商品
 				</div>
-				<div class="top-two">
+				<div class="top-two" id="top-two-comment">
 					评论
 				</div>
-				<div class="top-two">
+				<div class="top-two" id="top-two-details">
 					详情
 				</div>
-				<div class="top-two">
+				<div class="top-two" id="top-two-recommend">
 					推荐
 				</div>
 				<div class="top-one-two">
@@ -372,7 +372,9 @@
 				</div>
 				<div class="cover-two">
 					<div class="cover-two-up">
-						<img src="img/icon-bag.png">
+						<a href="../shoppingcart/shoppingtrolley.html">
+							<img src="img/icon-bag.png">
+						</a>
 						<div class="cover-two-up-text">
 							2
 						</div>
@@ -425,6 +427,43 @@
 					$(".top ").removeClass("fixed");
 				};
 			})
+			// 评论
+			$("#top-two-comment").click(function() {
+				var scrollTop = $(window).scrollTop();
+				// console.log(scrollTop)
+				$("html,body").animate({
+					scrollTop: 1293
+				}, 700);
+			})
+			// 详情
+			$("#top-two-details").click(function() {
+				var scrollTop = $(window).scrollTop();
+				// console.log(scrollTop)
+				$("html,body").animate({
+					scrollTop: 1737
+				}, 700);
+			})
+			//推荐
+			$("#top-two-recommend").click(function() {
+				var scrollTop = $(window).scrollTop();
+				console.log(scrollTop)
+				$("html,body").animate({
+					scrollTop: 4387
+				}, 700);
+			})
+
+			$(".top-two").click(function() {
+				//判断是否有active
+				var flag = $(this).hasClass("active");
+				//移除所有active
+				$(".top-two").removeClass("active");
+
+				if (flag) {
+					$(this).removeClass("active");
+				} else {
+					$(this).addClass("active");
+				}
+			});
 		</script>
 	</body>
 </html>

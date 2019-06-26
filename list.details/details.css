@@ -23,10 +23,12 @@ body {
 	font-size: 3.7vw;
 	padding: 0vw 6.5vw;
 }
-
-.top-two:nth-child(2) {
-	color: #BEA474;
+.top .active{
+color: #BEA474;
 }
+/* .top-two:nth-child(2) {
+	color: #BEA474;
+} */
 
 .top-one-two img {
 	max-width: 4.3vw;
