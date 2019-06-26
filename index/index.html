@@ -42,10 +42,11 @@
 				<div class="head-cover-option">
 					<div class="head-cover-option-left">
 						618返场
-						<div class="head-cover-option-cover"></div>			
+						<div class="head-cover-option-left-cover"></div>
 					</div>
 					<div class="head-cover-option-right">
 						品牌街
+						<div class="head-cover-option-right-cover"></div>
 					</div>
 				</div>
 			</div>
@@ -496,7 +497,9 @@
 					</div>
 				</div>
 			</div>
-
+			<div class="gif">
+				<img src="./img/image/f1e6e2f664554ff19d93281c4db60bdc.gif">
+			</div>
 
 
 
@@ -597,31 +600,58 @@
 			});
 		</script>
 		<script type="text/javascript">
-			//滚动事件
-			// var maxTop = $(".pc-top ").offset().top;
-			$(window).scroll(function(e) {
-				var scrollTop = $(this).scrollTop();
-				// console.log(maxTop);
-				// console.log(scrollTop);
-				if (scrollTop > 600) {
-					$(".icon-home").css("display", "none");
-					$(".floot-cover-one .floot-cover-one-down").eq(0).text("返回顶部");
-					$(".icon-backtop").css("display", "block");
-				} else {
-					$(".icon-home").css("display", "block");
-					$(".floot-cover-one .floot-cover-one-down").eq(0).text("首页");
-					$(".icon-backtop").css("display", "none");
-				};
-			})
-			// 点击回到顶部
-			$(".icon-backtop").click(function() {
-				$("html,body").stop().animate({
-					scrollTop: 0,
+			$(document).ready(function() {
+				//滚动事件
+				// var maxTop = $(".pc-top ").offset().top;
+				$(window).scroll(function(e) {
+					var scrollTop = $(this).scrollTop();
+					// console.log(maxTop);
+					// console.log(scrollTop);
+					if (scrollTop > 600) {
+						$(".icon-home").css("display", "none");
+						$(".floot-cover-one .floot-cover-one-down").eq(0).text("返回顶部");
+						$(".icon-backtop").css("display", "block");
+					} else {
+						$(".icon-home").css("display", "block");
+						$(".floot-cover-one .floot-cover-one-down").eq(0).text("首页");
+						$(".icon-backtop").css("display", "none");
+					};
 				})
-			})
-			//点击切换
-			$(".head-cover-option-right").click(function() {
-			// $(".icon-backtop").css(display,none)
+				// 点击回到顶部
+				$(".icon-backtop").click(function() {
+					$("html,body").stop().animate({
+						scrollTop: 0,
+					})
+				})
+				//点击切换
+				$(".head-cover-option-right").click(function() {
+					$(".one").hide("fast");
+					$(".two").hide("fast");
+					$(".three").hide("fast");
+					$(".four").hide("fast");
+					$(".five").hide("fast");
+					$(".six").hide("fast");
+					$(".seven").hide("fast");
+					$(".eight").hide("fast");
+					$(".eight-two").hide("slow");
+					$(".gif").css("display", "block");
+					$(".head-cover-option-left-cover").css("display", "none");
+					$(".head-cover-option-right-cover").css("display", "block");
+				})
+				$(".head-cover-option-left").click(function() {
+					$(".one").show("fast");
+					$(".two").show("fast");
+					$(".three").show("fast");
+					$(".four").show("fast");
+					$(".five").show("fast");
+					$(".six").show("fast");
+					$(".seven").show("fast");
+					$(".eight").show("fast");
+					$(".eight-two").show("fast");
+					$(".gif").css("display", "none");
+					$(".head-cover-option-left-cover").css("display", "block");
+					$(".head-cover-option-right-cover").css("display", "none");
+				})
 			})
 		</script>
 	</body>
